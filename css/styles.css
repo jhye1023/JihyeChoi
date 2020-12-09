@@ -64,6 +64,10 @@ body {
   background-color: #fff;
 }
 
+.masthead-avatar {
+  border-radius: 15%;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -191,6 +195,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  width: 350px;
+  height: 200px;
 }
 
 svg {
